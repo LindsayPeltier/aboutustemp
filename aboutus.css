@@ -1,24 +1,28 @@
 body {
-  background-image: url(images/Depositphotos_55318379_l-2015.jpg);
+  background-image: url(images/Depositphotos_23177554_s-2019.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   border-image-width: 100%;
 }
 
 #wrapper {
+  margin-top: 15%;
   display: grid;
   grid-template-columns: 100%;
+  grid-template-rows: 25% auto 25%;
 }
 
 @media screen and (min-width: 500px) {
   #wrapper {
     grid-template-columns: 50% 50%;
+    grid-template-rows: 25% auto 25%;
   }
 }
 
 @media screen and (min-width: 800px) {
   #wrapper {
     grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 25% auto 25%;
   }
 }
 
@@ -28,7 +32,7 @@ h1 {
   color: #847577;
   text-align: center;
   padding: 1%;
-  margin: 1%;
+  margin: 5% 1%;
   box-shadow: 10px 5px 5px #cfd2cd;
   letter-spacing: 1em;
 }
@@ -45,8 +49,8 @@ a > img {
 }
 
 img {
-  max-width: 75%;
-  margin: 10%;
+  max-width: 65%;
+  margin: 14%;
   height: auto;
   box-shadow: 10px 5px 5px grey;
   border-radius: 2%;
