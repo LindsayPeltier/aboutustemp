@@ -1,0 +1,35 @@
+body {
+  background-color: #cfd2cd;
+  background-image: image(
+    '/301/Sandbox/aboutus/images/Depositphotos_23177554_s-2019.jpg'
+  );
+}
+
+#wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+#contact-icons {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#travis {
+  border: 1px solid black;
+}
+
+#holly {
+  border: 1px solid black;
+}
+
+#david {
+  border: 1px solid black;
+}
+
+#lindsay {
+  border: 1px solid black;
+}
