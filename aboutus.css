@@ -1,5 +1,5 @@
 body {
-  background-image: url(/images/Depositphotos_55318379_|-2015.jpg);
+  background-image: url(images/Depositphotos_55318379_l-2015.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   border-image-width: 100%;
@@ -7,39 +7,30 @@ body {
 
 #wrapper {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 100%;
 }
 
 @media screen and (min-width: 500px) {
   #wrapper {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 50% 50%;
   }
 }
 
 @media screen and (min-width: 800px) {
   #wrapper {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 25% 25% 25% 25%;
   }
 }
 
 #wrapper {
   grid-column-gap: 10px;
   grid-row-gap: 10px;
-  background-color: #ffffff;
 }
 
 h1 {
   text-align: center;
-  border: 1px solid black;
   padding: 2%;
-  margin: 5%;
-}
-
-#contact-icons {
-  border: 1px solid black;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+  margin: 2%;
 }
 
 p {
@@ -50,7 +41,12 @@ p {
 #holly,
 #david,
 #lindsay {
-  width: 100%;
-  height: 100%;
-  border: 1px solid black;
+}
+
+img {
+  max-width: 75%;
+  margin: 10%;
+  height: auto;
+  box-shadow: 10px 5px 5px grey;
+  border-radius: 2%;
 }
