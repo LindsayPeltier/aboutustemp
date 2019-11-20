@@ -1,35 +1,56 @@
 body {
-  background-color: #cfd2cd;
-  background-image: image(
-    '/301/Sandbox/aboutus/images/Depositphotos_23177554_s-2019.jpg'
-  );
+  background-size: 100%;
+  background-image: url(/images/Depositphotos_23177554_s-2019.jpg);
+  background-repeat: no-repeat;
+  border-image-width: 100%;
 }
 
 #wrapper {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+@media screen and (min-width: 500px) {
+  #wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  #wrapper {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+#wrapper {
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  background-color: #ffffff;
+}
+
+h1 {
+  text-align: center;
+  border: 1px solid black;
+  padding: 2%;
+  margin: 5%;
 }
 
 #contact-icons {
   border: 1px solid black;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-}
-#travis {
-  border: 1px solid black;
+  justify-content: center;
 }
 
-#holly {
-  border: 1px solid black;
+p {
+  align-content: center;
 }
 
-#david {
-  border: 1px solid black;
-}
-
+#travis,
+#holly,
+#david,
 #lindsay {
+  width: 100%;
+  height: 100%;
   border: 1px solid black;
 }
