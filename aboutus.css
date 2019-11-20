@@ -24,10 +24,24 @@ body {
 
 h1 {
   border: 5px solid white;
+  background-color: white;
+  color: #847577;
   text-align: center;
   padding: 1%;
   margin: 1%;
-  box-shadow: 10px 5px 5px grey;
+  box-shadow: 10px 5px 5px #cfd2cd;
+  letter-spacing: 1em;
+}
+
+.contact-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+a > img {
+  max-width: 35%;
+  min-width: 35%;
 }
 
 img {
@@ -36,6 +50,13 @@ img {
   height: auto;
   box-shadow: 10px 5px 5px grey;
   border-radius: 2%;
+}
+
+p {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  font-size: large;
+  letter-spacing: 0.1em;
 }
 
 #travis > * {
